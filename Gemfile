@@ -13,7 +13,9 @@ group :production do
   gem 'pg'
 end
 gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
 gem 'net-ssh'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
